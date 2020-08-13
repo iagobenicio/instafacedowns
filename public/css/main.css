@@ -1,0 +1,202 @@
+nav {
+    height: 100px;
+    justify-content: center;
+    line-height: 100px;
+}
+
+.nav-wrapper {
+    background: #C714E9;
+    line-height: 100px;
+}
+
+.nav-wrapper li a {
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+.nav-wrapper .logo-breand {
+    width: 114px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.nav-wrapper .material-icons {
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.sidenav {
+    background-color: #C714E9;
+}
+
+#home-content {
+    padding: 20px;
+}
+
+.sidenav li a {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#home-content h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    color: #3F3D56;
+}
+
+#home-content .btn {
+    transition: 0.5s;
+    font-size: 20px;
+    height: 60px;
+    width: 250px;
+    background-color: #C714E9;
+    box-shadow: 0px 5px 12px #c614e991;
+    line-height: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    border-radius: 9px;
+}
+
+#home-content .facebook {
+    transition: 0.5s;
+    background-color: #4D6FF9;
+    border-radius: 9px 0px 0px 9px;
+    width: 220px;
+    box-shadow: 0px 5px 12px #4d6ff9a6;
+}
+
+#home-content .instagram {
+    transition: 0.5s;
+    background: linear-gradient(to right, #F71900, #F6D005);
+    border-radius: 9px 0px 0px 9px;
+    width: 220px;
+    box-shadow: 0px 5px 12px #f674029a;
+}
+
+#home-content .download-app {
+    transition: 0.5s;
+    background: linear-gradient(to right, #C714E9, #ae0acf);
+    border-radius: 9px 0px 0px 9px;
+    width: 260px;
+    box-shadow: 0px 5px 12px #c614e9b2;
+}
+
+#home-content .socialbox {
+    display: flex;
+}
+
+#home-content span {
+    transition: 0.5s;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #244AE8;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    box-shadow: 0px 5px 12px #244be8a8;
+    font-size: 20px;
+}
+
+#home-content span.instagram-icon {
+    background-color: #A442AF;
+    box-shadow: 0px 5px 12px #a442afa8;
+}
+
+#home-content span.down-icon {
+    background-color: #91189e;
+    box-shadow: 0px 5px 12px #7a2883a8;
+}
+
+#home-content .btn-down {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+#home-content .btn:hover {
+    box-shadow: none;
+}
+
+#home-content .btn:hover~span {
+    box-shadow: none;
+}
+
+#facebook-content {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#facebook-content .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #c614e9b2;
+}
+
+@media screen and (max-width: 480px) {
+    #home-content .img-demo {
+        display: none;
+    }
+    #home-content .btn-down {
+        display: block;
+    }
+    #home-content .socialbox {
+        padding: 10px;
+    }
+    #home-content h1 {
+        padding: 0px;
+        font-size: 36px;
+    }
+}
+
+#facebook-content input[type="text"] {
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    border-radius: 4px 0px 0px 4px;
+    padding: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+.btn-down-now {
+    color: white;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+}
+
+@media (max-width: 515px) {
+    .btn-down-now {
+        display: block;
+        width: 100%;
+    }
+    #facebook-content input[type="text"] {
+        display: block;
+        float: none;
+    }
+}
+
+section.anun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.anuncio {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(168, 168, 168);
+}
