@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('down-videos', 'VideoURL@FInstaVD');
+Route::post('down-images', 'VideoURL@FInstaIMG');

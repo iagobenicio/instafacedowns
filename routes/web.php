@@ -18,11 +18,26 @@ Route::get('/', function () {
 });
 
 Route::get('/facebook-donwload', function(){
-    return view('finstaview');
+    $data = true;
+    return view('finstaview', compact('data', $data));
 });
 
-Route::get('/insatgram-donwload', function(){
-    return view('finstaview');
+Route::get('/instagram-donwload', function(){
+    return view('finstaview' );
+});
+
+
+Route::get('/images-donwload', function(){
+    return view('donwload_image');
+});
+
+
+Route::get('/help', function(){
+    return view('help');
+});
+
+Route::get('/how-to-use', function(){
+    return view('how_to_use');
 });
 
 Route::get('finstavd/vd','VideoURL@FInstaVD');

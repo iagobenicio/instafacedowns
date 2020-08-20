@@ -200,3 +200,17 @@ section.anun {
     height: 200px;
     background-color: rgb(168, 168, 168);
 }
+
+#help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#howToUse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
