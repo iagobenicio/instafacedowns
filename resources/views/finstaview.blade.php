@@ -4,6 +4,7 @@
     @php
     $tag = 'Facebook';
     @endphp
+      @section('facebook', 'active ')
 @else
     @php
     $tag = 'Instagram';
@@ -43,7 +44,7 @@
                                 </div>
                             </div>
                             <div id="img-donw" class="img-down center-align">
-                                <img style="width: 70px;" src="src/img/Download_alt_font_awesome.svg.png" alt="">
+                                <img  style="width: 70px; " src="src/img/Download_alt_font_awesome.svg.png" alt="">
                             </div>
 
                         </a>

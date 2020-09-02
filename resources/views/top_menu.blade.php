@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script data-ad-client="ca-pub-4965592854730646" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -22,6 +23,7 @@
 
     <!--FONTAWSOMENNES-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script data-ad-client="ca-pub-4965592854730646" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>

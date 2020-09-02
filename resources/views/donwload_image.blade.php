@@ -15,7 +15,7 @@
                 <div class="col-12 ">
                     <form action="">
 
-                        <input id="url" type="text" placeholder="Paste the URL">
+                        <input id="url" type="text" placeholder="Paste the url of the facebook/instagram image">
                         <a onclick="sendUrlImages()" class="waves-effect waves-light  center-align purple darken-1 btn-down-now">
 
                             <div id="loader-url" style="display: none">

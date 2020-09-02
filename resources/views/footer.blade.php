@@ -89,6 +89,8 @@
     $('.collapsible').collapsible();
   });
 
+
+
 </script>
 
 </html>
